@@ -1,0 +1,35 @@
+name: farmvista_project
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  # Firebase এর নতুন ভার্সনের জন্য SDK 3.0.0 বা তার বেশি লাগে
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Firebase & Local Storage (Updated versions to fix errors)
+  firebase_core: ^3.1.0
+  firebase_auth: ^5.1.0
+  cloud_firestore: ^5.0.0
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets
+  assets:
+    - assets/FarmVista.jpg
+    - assets/FarmVista_logo.png
+    - assets/google.png
+    - assets/home.jpeg
