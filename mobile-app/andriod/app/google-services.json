@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "366033648062",
+    "project_id": "farmvista-b3554",
+    "storage_bucket": "farmvista-b3554.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366033648062:android:8c2927c9d74960bad661ef",
+        "android_client_info": {
+          "package_name": "com.example.farmvista_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsFcUXdzkQrXjEZlo5CuNUclvYYBOKkAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
