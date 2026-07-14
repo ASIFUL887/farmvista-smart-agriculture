@@ -1,0 +1,405 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #b9d1bd;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+/* Title */
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Tabs */
+.tabs {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 8px 15px;
+    border: none;
+    background: #dfeee0;
+    cursor: pointer;
+    border-radius: 6px;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+.tab.active {
+    background: #2e7d32;
+    color: white;
+}
+
+/* Farm Card */
+.farm-card {
+    display: flex;
+    align-items: center;
+    background: #dcdcdc;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 8px;
+    position: relative;
+}
+
+/* LEFT GREEN BORDER */
+.farm-card::before {
+    content: "";
+    width: 5px;
+    height: 100%;
+    background: #2e7d32;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 8px 0 0 8px;
+}
+
+/* Image */
+.farm-img-box img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+/* Info */
+.farm-info {
+    flex: 1;
+    margin-left: 15px;
+}
+
+.farm-info h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.farm-info p {
+    margin: 3px 0;
+    font-size: 13px;
+}
+
+/* Button */
+.farm-action button {
+    background: #2e7d32;
+    color: white;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.farm-action button:hover {
+    background: #1b5e20;
+}
+
+
+
+/* =========================
+   GENERAL
+========================= */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #e8f5e9, #f1f8e9);
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px 10px;
+}
+
+/* Title */
+h2 {
+    text-align: center;
+    color: #1b5e20;
+    margin-bottom: 20px;
+}
+
+/* =========================
+   FARM CARD
+========================= */
+.farm-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #ffffff;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 14px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    position: relative;
+}
+
+/* Hover effect */
+.farm-card:hover {
+    transform: translateY(-4px);
+}
+
+/* Left image */
+.farm-card img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Text section */
+.farm-card h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #2e7d32;
+}
+
+.farm-card p {
+    margin: 3px 0;
+    font-size: 13px;
+    color: #555;
+}
+
+.farm-card small {
+    font-size: 12px;
+    color: #888;
+}
+
+/* =========================
+   STATUS BADGE
+========================= */
+.status {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 11px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Status colors */
+.status.Active {
+    background: #2e7d32;
+}
+
+.status.Pending {
+    background: #f9a825;
+}
+
+.status.Sold {
+    background: #c62828;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 5px;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Add button */
+.add-btn {
+    background: #2e7d32;
+}
+
+.add-btn:hover {
+    background: #1b5e20;
+}
+
+/* Center bottom link */
+.bottom-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Empty message */
+.empty {
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+/* Edit Button */
+/* RIGHT SIDE */
+.farm-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px; /* 🔥 more space between status & button */
+}
+
+/* EDIT BUTTON (WITH TEXT) */
+.edit-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    background: linear-gradient(135deg, #1976d2, #42a5f5);
+    border-radius: 20px;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(25,118,210,0.3);
+    transition: 0.3s;
+    margin-top: 12px;
+    margin-right: 52px;
+}
+
+/* Hover */
+.edit-btn:hover {
+    transform: translateY(-2px);
+}
+
+/* Optional: icon size */
+.edit-btn span {
+    font-size: 13px;
+}
+
+/* =========================
+   EDIT FARM PAGE
+========================= */
+.glass-card {
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(12px);
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    animation: fadeIn 0.4s ease;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+input, select, textarea {
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    background: #f3fff5;
+    font-size: 14px;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    background: #fff;
+    box-shadow: 0 0 0 2px #a5d6a7;
+}
+
+textarea {
+    resize: none;
+    height: 90px;
+}
+
+/* Image */
+.current-img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 5px;
+}
+
+/* File input */
+input[type="file"] {
+    background: #f1fff3;
+    border: 1px dashed #a5d6a7;
+}
+
+/* Preview */
+#preview {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 10px;
+    display: none;
+}
+
+/* Messages */
+.success-msg {
+    background: #e8f5e9;
+    color: #2e7d32;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.error-msg {
+    background: #fdecea;
+    color: #c62828;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Back link */
+.back-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.back-link a {
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* DELETE BUTTON */
+.delete-btn {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 6px 12px;
+    background: linear-gradient(135deg, #e53935, #ef5350);
+    border-radius: 20px;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(229,57,53,0.3);
+    transition: 0.3s;
+    margin-right: 52px;
+}
+
+.delete-btn:hover {
+    transform: translateY(-2px);
+}

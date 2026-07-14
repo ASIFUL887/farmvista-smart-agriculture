@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #e8f5e9, #66bb6a);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 35px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.subtitle span {
+    color: #2e7d32;
+}
+
+/* ROLE */
+.role-toggle {
+    display: flex;
+    margin: 20px 0;
+}
+
+.role-toggle input {
+    display: none;
+}
+
+.role-toggle label {
+    flex: 1;
+    padding: 8px;
+    margin: 0 5px;
+    border-radius: 20px;
+    background: #eee;
+    cursor: pointer;
+}
+
+.role-toggle input:checked+label {
+    background: #2e7d32;
+    color: white;
+}
+
+/* INPUT */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+/* PASSWORD */
+.password-group {
+    display: flex;
+    align-items: center;
+}
+
+.password-group span {
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+/* BUTTON */
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background: #2e7d32;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #1b5e20;
+}
+
+/* LINKS */
+.forgot {
+    font-size: 12px;
+    text-align: right;
+    color: #555;
+}
+
+.signup-link {
+    margin-top: 10px;
+}

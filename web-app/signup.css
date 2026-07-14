@@ -1,0 +1,62 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to bottom, #cfe9cf, #5fbf73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(255,255,255,0.2);
+    padding: 25px;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.role-toggle button {
+    padding: 8px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.active {
+    background: green;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 20px;
+    border: none;
+}
+
+.profile-upload img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background: #2e7d32;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.password-group {
+    display: flex;
+    align-items: center;
+}
+.password-group span {
+    margin-left: -30px;
+    cursor: pointer;
+}

@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #d4f8d4, #f0fff0);
+}
+
+/* Container */
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin: 0;
+}
+
+/* Back Button */
+.back-btn {
+    text-decoration: none;
+    padding: 6px 12px;
+    background: #333;
+    color: white;
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+.back-btn:hover {
+    background: #28a745;
+}
+
+/* Cards Layout */
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Card Design */
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: #28a745;
+    color: white;
+}
+
+/* Icon */
+.icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* Text */
+.card h3 {
+    margin: 5px 0;
+}
+
+.card p {
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.back {
+    text-decoration: none;
+    padding: 6px 12px;
+    background: #333;
+    color: white;
+    border-radius: 6px;
+    font-size: 13px;
+
+}
+
+.back:hover {
+    background: #28a745;
+}
